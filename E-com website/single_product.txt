@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Dunder Mifflin Website Design</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" rel="stylesheet">
+</head>
+<body>
+	
+	
+	<div class="container">
+	<div class = "navbar">
+		<div class="logo">
+			<img src="logo.png" width="175px"></img>
+		</div>
+	
+	<nav>
+		<ul id="MenuItems">
+			<li><a href="main.html">Home</a>
+			<li><a href="products.html">Products</a>
+			<li><a href="about.html">About</a>
+			<li><a href="contact.html">Contact</a>
+			<li><a href="account.html">Account</a>
+		</ul>
+	</nav>
+	<img src="cart.jpg" width="30px" height="30px">
+	<img src="menu.png" class="menu-icon" onclick="menutoggle()">
+	</div>
+	
+	
+	<div class="small-container">
+	<h1 class="title">Featured Products</h1>
+		<div class="row">
+		<div class="col-4">
+				<img src="p1.jpg"></img>
+				<h4>Standard Ream 70 GSM</h4>
+				<p>₹200</p>				
+			</div>
+			<div class="col-4">
+				<img src="p2.jpg"></img>
+				<h4>Dot Matrix Printer Papers</h4>
+				<p>₹300</p>
+			</div>
+			<div class="col-4">
+				<img src="p3.jpg"></img>
+				<h4>A4 Ream</h4>
+				<p>₹180</p>				
+			</div>
+			<div class="col-4">
+				<img src="p4.jpeg"></img>
+				<h4>Sticky Notes</h4>
+				<p>₹100</p>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-4">
+				<img src="p1.jpg"></img>
+				<h4>Standard Ream 70 GSM</h4>
+				<p>₹200</p>				
+			</div>
+			<div class="col-4">
+				<img src="p2.jpg"></img>
+				<h4>Dot Matrix Printer Papers</h4>
+				<p>₹300</p>
+			</div>
+			<div class="col-4">
+				<img src="p3.jpg"></img>
+				<h4>A4 Ream</h4>
+				<p>₹180</p>				
+			</div>
+			<div class="col-4">
+				<img src="p4.jpeg"></img>
+				<h4>Sticky Notes</h4>
+				<p>₹100</p>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-4">
+				<img src="p1.jpg"></img>
+				<h4>Standard Ream 70 GSM</h4>
+				<p>₹200</p>				
+			</div>
+			<div class="col-4">
+				<img src="p2.jpg"></img>
+				<h4>Dot Matrix Printer Papers</h4>
+				<p>₹300</p>
+			</div>
+			<div class="col-4">
+				<img src="p3.jpg"></img>
+				<h4>A4 Ream</h4>
+				<p>₹180</p>				
+			</div>
+			<div class="col-4">
+				<img src="p4.jpeg"></img>
+				<h4>Sticky Notes</h4>
+				<p>₹100</p>
+			</div>
+		</div>
+	</div>
+	<div class="offer">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-2">
+					<img src="p1.jpg" class="offer-img"></img>
+				</div>
+				<div class="col-2">
+					<p>Exclusively available on Dunder Mifflin</p>
+					<h1>Penstand</h1>
+					<small>Pen stands are what make a study table, without a penstand it will be just another table at home. With the love 
+					of stationary growing in present times we at MFPA understand your desire to keep your beloved stationary safe and on display.</small>
+					<br><a href="" class="btn">Buy Now &#8594;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h1 class="title">Follow us on</h1>
+	<div class="brands">
+		<div class="small-container">
+			<div class="row">
+						<div class="col-5">
+							<a href="http://www.facebook.com"><img src="fb.png"></img></a>
+						</div>
+						<div class="col-5">
+							<a href="http://www.twitter.com"><img src="twitter.png"></img></a>
+						</div>
+						<div class="col-5">
+							<a href="http://www.youtube.com"><img src="yt.png"></img></a>
+						</div>
+						<div class="col-5">
+							<a href="http://www.instagram.com"><img src="insta.jpg"></img></a>
+						</div>
+						<div class="col-5">
+							<a href="http://www.linkedin.com"><img src="li.png"></img></a>
+						</div>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download our app</h3>
+					<p>Download our app for android and ios mobile phones</p>
+					<div class="app-logo">
+						<a href="http://www.googleplay.com"><img src="gp.png"></img></a>
+						<a href="https://www.apple.com/app-store/"><img src="ap.png"></img></a>
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<div class="logo"><img src="logo.png" width="175px"></img></div>
+					<p>Limitless paper in a paperless world.</p>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2021 - Dunder Mifflin</p>
+		</div>
+	</div>
+<!----JS for toggle menu---->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		MenuItems.style.maxHeight = "0px";
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+			{
+				MenuItems.style.maxHeight = "200px";
+			}
+			else
+			{
+				MenuItems.style.maxHeight = "0px";
+			}
+		}
+	</script>
+</body>

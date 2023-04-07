@@ -1,0 +1,12 @@
+
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content{
+    display: none;
+    border: 2px solid red;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .account:hover .dropdown-content {
+    display: block;
+  }
